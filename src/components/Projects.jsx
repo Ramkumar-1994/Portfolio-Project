@@ -40,9 +40,9 @@ const Projects = () => {
                   <img src={project.image} alt="" className='w-full rounded-md hover:scale-105'/>
                   <h2 className='my-2 text-lg'>{project.name}</h2>
                   <h4 className='my-2 text-sm text-gray-400'>{project.technologies}</h4>
-                  <div className="flex gap-10 mt-6">
-                  <a href={project.github} className='bg-gradient-to-r from-teal-400 to-blue-500 py-1 px-4 rounded-full ' target='_blank'><button>Github</button></a>
-                  <a href={project.link} target='_blank'><button className='bg-gradient-to-r from-pink-500 to-orange-500 py-1 px-4 rounded-full'>view Website</button></a>
+                  <div className="flex gap-5 mt-6">
+                  <a href={project.github}  target='_blank'><button className='bg-gradient-to-r from-teal-400 to-blue-500 py-1 px-4 rounded-full text-sm md:text-md'>Github</button></a>
+                  <a href={project.link} target='_blank'><button className='bg-gradient-to-r from-pink-500 to-orange-500 py-1 px-4 rounded-full text-sm md:text-md'>view Website</button></a>
                   </div>
                   
                 </div>
