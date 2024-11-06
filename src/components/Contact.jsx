@@ -9,7 +9,7 @@ const Contact = () => {
             <div 
             className='flex flex-col justify-center items-start gap-6 w-full lg:w-[60%]'>
                 <h1
-                className='text-4xl text-center'>
+                className='md:text-4xl text-2xl text-center'>
                   Contact Me
                 </h1>
                 <a href="mailto:nramkumar1994@gmail.com" target='_blank' className='font-semibold text-2xl'>📧Email

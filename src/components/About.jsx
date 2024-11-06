@@ -19,17 +19,18 @@ const About = () => {
           I'm a former senior mechanical engineer with over 6 years of experience in the plastic manufacturing industry, now pivoting to a career in front-end development. My background in engineering has given me a solid foundation in problem-solving, attention to detail, and structured thinking, which I now apply to web development. Equipped with skills in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and React.js, I'm eager to create responsive, user-friendly web applications and continue learning in the fast-paced tech world.
           </p>
           <div className='flex gap-6 justify-center md:justify-start'>
-            <a href="https://www.linkedin.com/in/ramkumarnadarajan1994/" target='_blank'>
-            <FaLinkedin  className='text-4xl md:text-6xl text-blue-600 hover:text-white cursor-pointer' target='_blank'/>
+            <a href="https://www.linkedin.com/in/ramkumarnadarajan1994/" target='_blank' className='text-white'>
+            <FaLinkedin  className='text-4xl md:text-6xl hover:text-[#0077B5]  cursor-pointer' target='_blank'/>Linkedin
             </a>
-            <a href="https://github.com/Ramkumar-1994" target='_blank'>
-            <FaGithub  className='text-4xl md:text-6xl hover:text-white'/>
+            <a href="https://github.com/Ramkumar-1994" target='_blank' className='text-white'>
+            <FaGithub  className='text-4xl md:text-6xl hover:text-[#171515]
+            hover:bg-white'/>Github
             </a>
-            <a href="https://www.instagram.com/ra.mkumar691/" target='_blank'>
-            <FaSquareInstagram  className='text-4xl md:text-6xl hover:text-white bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-sm'/>
+            <a href="https://www.instagram.com/ra.mkumar691/" target='_blank' className='text-white'>
+            <FaSquareInstagram  className='text-4xl md:text-6xl hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-sm'/>Instagram
             </a>
-            <a href="https://www.facebook.com/ram.kumar.180410/" target='_blank'>
-            <FaFacebook  className='text-4xl md:text-6xl bg-gradient-to-r from-[#3641e0] via-[#3641e0] to-[#3641e0] rounded-sm cursor-pointer hover:text-white'/>
+            <a href="https://www.facebook.com/ram.kumar.180410/" target='_blank' className='text-white'>
+            <FaFacebook  className='text-4xl md:text-6xl hover:text-[#316FF6] rounded-sm cursor-pointer '/>facebook
             </a>
           </div>
           </div>

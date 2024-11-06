@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <>
     <div className="sticky border-b border-gray-200 backdrop-blur-lg backdrop-filter top-0 z-10 bg-opacity-30">
-    <div className='py-3 px-10 flex justify-between  max-w-7xl mx-auto items-center'>
+    <div className='py-5 px-10 flex justify-between  max-w-7xl mx-auto items-center'>
         <h2 className='font-semibold text-xl font-mono'>Ramkumar's <span className='text-blue-300'>portfolio</span></h2>
-        <div className='md:flex gap-10 font-light text-xl hidden '>
+        <div className='md:flex gap-10 font-light text-lg hidden '>
           <h2 className='hover'>Home</h2>
           <h2 className='hover'>About</h2>
           <h2 className='hover'>Skills</h2>
