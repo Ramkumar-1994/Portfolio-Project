@@ -8,7 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const Skills = () => {
   return (
     <div>
-      <div className='py-10 border-b-2 border-gray-500'>
+      <div className='py-10 border-b-2 border-gray-500' id='skills'>
         <h2 className=' font-semibold text-2xl md:text-4xl text-center'>Skills</h2>
         <div className='max-w-4xl mx-auto flex gap-10 flex-wrap justify-center my-10'>
           <div className="border p-6 rounded-md text-center hover:scale-105 shadow-xl  shadow-orange-500 cursor-pointer">

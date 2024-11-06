@@ -31,7 +31,7 @@ const Projects = () => {
   ]
   return (
     <div>
-      <div className='py-10 border-b-2 border-gray-500'>
+      <div className='py-10 border-b-2 border-gray-500' id='projects'>
         <h1 className='font-semibold text-4xl text-center'>Projects</h1>
         <div className='my-5 rounded-md p-8 grid md:grid-cols-3 grid-cols-1 gap-10 justify-center md:max-w-7xl mx-auto w-[90%]'>
           {
